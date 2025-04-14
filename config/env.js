@@ -5,7 +5,8 @@
 
 // Database configuration
 const DB_CONFIG = {
-  url: process.env.MONGODB_URI || 'mongodb://localhost:27017',
+  // url: process.env.MONGODB_URI || 'mongodb://localhost:27017',
+  url: process.env.MONGODB_URI || 'mongodb+srv://iptable:Jacky789@cluster0.2n8ys.mongodb.net/',
   name: process.env.DB_NAME || 'quizmk',
   options: {
     maxPoolSize: 10,
